@@ -25,3 +25,8 @@ variable "owner" {
   description = "Resource Owner"
   default     = "bengler9@gmail.com"
 }
+
+variable "app_id" {
+  description = "Application ID"
+  default     = "100001"
+}

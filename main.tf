@@ -29,5 +29,6 @@ resource "aws_instance" "ubuntu" {
     Name = var.instance_name
     Environment = var.environment
     Owner = var.owner
+    AppID = var.app_id
   }
 }

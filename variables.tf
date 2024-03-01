@@ -20,3 +20,8 @@ variable "environment" {
   description = "Environment"
   default     = "dev"
 }
+
+variable "owner" {
+  description = "Resource Owner"
+  default     = "bengler9@gmail.com"
+}

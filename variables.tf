@@ -14,7 +14,7 @@ variable "instance_type" {
 }
 
 variable "instance_name" {
-  type        = "strng"
+  type        = string
   description = "EC2 instance name"
   default     = "TestInstance"
 }
@@ -31,7 +31,7 @@ variable "owner" {
 }
 
 variable "app_id" {
-  type        = "number"
+  type        = number
   description = "Application ID"
   default     = "100001"
 }
